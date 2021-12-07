@@ -1,6 +1,6 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react'), require('leaflet-rotate-map'), require('react-dom')) :
-  typeof define === 'function' && define.amd ? define(['exports', 'react', 'leaflet-rotate-map', 'react-dom'], factory) :
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react'), require('react-leaflet-rotate/leaflet-rotate-map'), require('react-dom')) :
+  typeof define === 'function' && define.amd ? define(['exports', 'react', 'react-leaflet-rotate/leaflet-rotate-map', 'react-dom'], factory) :
   (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.ReactLeaflet = {}, global.React, global.L, global.ReactDOM));
 }(this, (function (exports, React, leaflet, reactDom) { 'use strict';
 

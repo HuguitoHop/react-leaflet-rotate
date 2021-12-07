@@ -1,5 +1,5 @@
-import { createPathComponent } from '@react-leaflet/core';
-import { FeatureGroup as LeafletFeatureGroup } from 'leaflet-rotate-map';
+import { createPathComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { FeatureGroup as LeafletFeatureGroup } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const FeatureGroup = createPathComponent(function createFeatureGroup({
   children: _c,
   ...options

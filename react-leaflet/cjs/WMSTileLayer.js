@@ -3,9 +3,9 @@
 exports.__esModule = true;
 exports.WMSTileLayer = void 0;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
-var _leaflet = require("leaflet");
+var _leaflet = require("react-leaflet-rotate/leaflet-rotate-map");
 
 const WMSTileLayer = (0, _core.createTileLayerComponent)(function createWMSTileLayer({
   params = {},

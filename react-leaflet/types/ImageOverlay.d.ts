@@ -1,5 +1,5 @@
-import { MediaOverlayProps } from '@react-leaflet/core';
-import { ImageOverlay as LeafletImageOverlay } from 'leaflet-rotate-map';
+import { MediaOverlayProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { ImageOverlay as LeafletImageOverlay } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactNode } from 'react';
 export interface ImageOverlayProps extends MediaOverlayProps {
     children?: ReactNode;

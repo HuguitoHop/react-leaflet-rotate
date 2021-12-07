@@ -4,9 +4,9 @@ exports.__esModule = true;
 exports.createControlledLayer = createControlledLayer;
 exports.LayersControl = exports.useLayersControl = exports.useLayersControlElement = void 0;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
-var _leaflet = require("leaflet-rotate-map");
+var _leaflet = require("react-leaflet-rotate/leaflet-rotate-map");
 
 var _react = _interopRequireWildcard(require("react"));
 

@@ -1,5 +1,5 @@
-import { createPathComponent } from '@react-leaflet/core';
-import { Polygon as LeafletPolygon } from 'leaflet-rotate-map';
+import { createPathComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Polygon as LeafletPolygon } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const Polygon = createPathComponent(function createPolygon({
   positions,
   ...options

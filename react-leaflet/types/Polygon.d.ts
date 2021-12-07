@@ -1,5 +1,5 @@
-import { PathProps } from '@react-leaflet/core';
-import { LatLngExpression, PolylineOptions, Polygon as LeafletPolygon } from 'leaflet-rotate-map';
+import { PathProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { LatLngExpression, PolylineOptions, Polygon as LeafletPolygon } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactNode } from 'react';
 export interface PolygonProps extends PolylineOptions, PathProps {
     children?: ReactNode;

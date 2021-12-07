@@ -1,5 +1,5 @@
-import { EventedProps } from '@react-leaflet/core';
-import { LatLngExpression, Marker as LeafletMarker, MarkerOptions } from 'leaflet-rotate-map';
+import { EventedProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { LatLngExpression, Marker as LeafletMarker, MarkerOptions } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactNode } from 'react';
 export interface MarkerProps extends MarkerOptions, EventedProps {
     children?: ReactNode;

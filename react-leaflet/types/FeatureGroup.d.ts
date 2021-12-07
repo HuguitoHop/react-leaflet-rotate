@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { PathProps } from '@react-leaflet/core';
-import { FeatureGroup as LeafletFeatureGroup } from 'leaflet';
+import { PathProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { FeatureGroup as LeafletFeatureGroup } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { LayerGroupProps } from './LayerGroup';
 export interface FeatureGroupProps extends LayerGroupProps, PathProps {
 }

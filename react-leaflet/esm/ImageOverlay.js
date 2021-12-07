@@ -1,5 +1,5 @@
-import { createLayerComponent, updateMediaOverlay } from '@react-leaflet/core';
-import { ImageOverlay as LeafletImageOverlay } from 'leaflet-rotate-map';
+import { createLayerComponent, updateMediaOverlay } from 'react-leaflet-rotate/@react-leaflet/core';
+import { ImageOverlay as LeafletImageOverlay } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const ImageOverlay = createLayerComponent(function createImageOveraly({
   bounds,
   url,

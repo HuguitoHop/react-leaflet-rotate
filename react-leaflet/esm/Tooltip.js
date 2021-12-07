@@ -1,5 +1,5 @@
-import { createOverlayComponent } from '@react-leaflet/core';
-import { Tooltip as LeafletTooltip } from 'leaflet-rotate-map';
+import { createOverlayComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Tooltip as LeafletTooltip } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { useEffect } from 'react';
 export const Tooltip = createOverlayComponent(function createTooltip(props, context) {
   return {

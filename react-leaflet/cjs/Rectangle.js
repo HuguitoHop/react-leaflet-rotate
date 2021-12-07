@@ -3,9 +3,9 @@
 exports.__esModule = true;
 exports.Rectangle = void 0;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
-var _leaflet = require("leaflet");
+var _leaflet = require("react-leaflet-rotate/leaflet-rotate-map");
 
 const Rectangle = (0, _core.createPathComponent)(function createRectangle({
   bounds,

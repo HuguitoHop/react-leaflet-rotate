@@ -3,7 +3,7 @@
 exports.__esModule = true;
 exports.Pane = Pane;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
 var _react = _interopRequireWildcard(require("react"));
 

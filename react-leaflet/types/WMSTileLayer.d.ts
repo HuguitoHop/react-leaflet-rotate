@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { LayerProps } from '@react-leaflet/core';
-import { TileLayer, WMSOptions, WMSParams } from 'leaflet-rotate-map';
+import { LayerProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { TileLayer, WMSOptions, WMSParams } from 'react-leaflet-rotate/leaflet-rotate-map';
 export interface WMSTileLayerProps extends WMSOptions, LayerProps {
     params?: WMSParams;
     url: string;

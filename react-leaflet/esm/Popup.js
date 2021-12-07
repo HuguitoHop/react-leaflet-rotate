@@ -1,5 +1,5 @@
-import { createOverlayComponent } from '@react-leaflet/core';
-import { Popup as LeafletPopup } from 'leaflet-rotate-map';
+import { createOverlayComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Popup as LeafletPopup } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { useEffect } from 'react';
 export const Popup = createOverlayComponent(function createPopup(props, context) {
   return {

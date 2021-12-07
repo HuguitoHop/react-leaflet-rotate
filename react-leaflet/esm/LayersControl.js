@@ -1,5 +1,5 @@
-import { LeafletProvider, createContainerComponent, createControlHook, createElementHook, useLeafletContext } from '@react-leaflet/core';
-import { Control } from 'leaflet-rotate-map';
+import { LeafletProvider, createContainerComponent, createControlHook, createElementHook, useLeafletContext } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Control } from 'react-leaflet-rotate/leaflet-rotate-map';
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 export const useLayersControlElement = createElementHook(function createLayersControl({
   children: _c,

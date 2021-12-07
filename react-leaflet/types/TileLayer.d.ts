@@ -1,6 +1,6 @@
 /// <reference types="react" />
-import { LayerProps } from '@react-leaflet/core';
-import { TileLayer as LeafletTileLayer, TileLayerOptions } from 'leaflet-rotate-map';
+import { LayerProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { TileLayer as LeafletTileLayer, TileLayerOptions } from 'react-leaflet-rotate/leaflet-rotate-map';
 export interface TileLayerProps extends TileLayerOptions, LayerProps {
     url: string;
 }

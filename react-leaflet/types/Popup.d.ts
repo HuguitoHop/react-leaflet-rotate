@@ -1,5 +1,5 @@
-import { EventedProps } from '@react-leaflet/core';
-import { LatLngExpression, Popup as LeafletPopup, PopupOptions } from 'leaflet-rotate-map';
+import { EventedProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { LatLngExpression, Popup as LeafletPopup, PopupOptions } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactNode } from 'react';
 export interface PopupProps extends PopupOptions, EventedProps {
     children?: ReactNode;

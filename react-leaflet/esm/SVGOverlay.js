@@ -1,5 +1,5 @@
-import { createElementHook, createLayerHook, updateMediaOverlay } from '@react-leaflet/core';
-import { SVGOverlay as LeafletSVGOverlay } from 'leaflet-rotate-map';
+import { createElementHook, createLayerHook, updateMediaOverlay } from 'react-leaflet-rotate/@react-leaflet/core';
+import { SVGOverlay as LeafletSVGOverlay } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { forwardRef, useImperativeHandle } from 'react';
 import { createPortal } from 'react-dom';
 export const useSVGOverlayElement = createElementHook(function createSVGOverlay(props, context) {

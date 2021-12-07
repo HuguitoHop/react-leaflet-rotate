@@ -1,4 +1,4 @@
-import { useLeafletContext } from '@react-leaflet/core';
+import { useLeafletContext } from 'react-leaflet-rotate/@react-leaflet/core';
 import { useEffect } from 'react';
 export function useMap() {
   return useLeafletContext().map;

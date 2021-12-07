@@ -1,5 +1,5 @@
-import { MediaOverlayProps } from '@react-leaflet/core';
-import { SVGOverlay as LeafletSVGOverlay } from 'leaflet-rotate-map';
+import { MediaOverlayProps } from 'react-leaflet-rotate/@react-leaflet/core';
+import { SVGOverlay as LeafletSVGOverlay } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactNode } from 'react';
 export interface SVGOverlayProps extends MediaOverlayProps {
     attributes?: Record<string, string>;

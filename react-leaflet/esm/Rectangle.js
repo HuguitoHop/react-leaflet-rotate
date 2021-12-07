@@ -1,5 +1,5 @@
-import { createPathComponent } from '@react-leaflet/core';
-import { Rectangle as LeafletRectangle } from 'leaflet-rotate-map';
+import { createPathComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Rectangle as LeafletRectangle } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const Rectangle = createPathComponent(function createRectangle({
   bounds,
   ...options

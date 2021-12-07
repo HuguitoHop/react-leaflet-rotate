@@ -3,9 +3,9 @@
 exports.__esModule = true;
 exports.SVGOverlay = exports.useSVGOverlay = exports.useSVGOverlayElement = void 0;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
-var _leaflet = require("leaflet");
+var _leaflet = require("react-leaflet-rotate/leaflet-rotate-map");
 
 var _react = require("react");
 

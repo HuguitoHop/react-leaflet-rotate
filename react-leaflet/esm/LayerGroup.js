@@ -1,5 +1,5 @@
-import { createLayerComponent } from '@react-leaflet/core';
-import { LayerGroup as LeafletLayerGroup } from 'leaflet-rotate-map';
+import { createLayerComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { LayerGroup as LeafletLayerGroup } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const LayerGroup = createLayerComponent(function createLayerGroup({
   children: _c,
   ...options

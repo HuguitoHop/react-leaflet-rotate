@@ -1,5 +1,5 @@
-import { createPathComponent, updateCircle } from '@react-leaflet/core';
-import { CircleMarker as LeafletCircleMarker } from 'leaflet-rotate-map';
+import { createPathComponent, updateCircle } from 'react-leaflet-rotate/@react-leaflet/core';
+import { CircleMarker as LeafletCircleMarker } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const CircleMarker = createPathComponent(function createCircleMarker({
   center,
   children: _c,

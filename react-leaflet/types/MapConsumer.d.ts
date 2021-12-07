@@ -1,4 +1,4 @@
-import { Map } from 'leaflet-rotate-map';
+import { Map } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { ReactElement } from 'react';
 export interface MapConsumerProps {
     children: (map: Map) => ReactElement | null;

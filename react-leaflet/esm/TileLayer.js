@@ -1,5 +1,5 @@
-import { createTileLayerComponent, updateGridLayer, withPane } from '@react-leaflet/core';
-import { TileLayer as LeafletTileLayer } from 'leaflet-rotate-map';
+import { createTileLayerComponent, updateGridLayer, withPane } from 'react-leaflet-rotate/@react-leaflet/core';
+import { TileLayer as LeafletTileLayer } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const TileLayer = createTileLayerComponent(function createTileLayer({
   url,
   ...options

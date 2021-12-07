@@ -1,4 +1,4 @@
-import { Control, Layer } from 'leaflet-rotate-map';
+import { Control, Layer } from 'react-leaflet-rotate/leaflet-rotate-map';
 import React, { ForwardRefExoticComponent, FunctionComponent, ReactNode, RefAttributes } from 'react';
 export interface LayersControlProps extends Control.LayersOptions {
     children?: ReactNode;

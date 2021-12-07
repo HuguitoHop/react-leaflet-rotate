@@ -1,4 +1,4 @@
-import { LeafletProvider, addClassName, useLeafletContext } from '@react-leaflet/core';
+import { LeafletProvider, addClassName, useLeafletContext } from 'react-leaflet-rotate/@react-leaflet/core';
 import React, { useState, useEffect, useMemo } from 'react';
 import { createPortal } from 'react-dom';
 const DEFAULT_PANES = ['mapPane', 'markerPane', 'overlayPane', 'popupPane', 'shadowPane', 'tilePane', 'tooltipPane'];

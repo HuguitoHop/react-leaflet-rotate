@@ -5,7 +5,7 @@ exports.useMap = useMap;
 exports.useMapEvent = useMapEvent;
 exports.useMapEvents = useMapEvents;
 
-var _core = require("@react-leaflet/core");
+var _core = require("react-leaflet-rotate/@react-leaflet/core");
 
 var _react = require("react");
 

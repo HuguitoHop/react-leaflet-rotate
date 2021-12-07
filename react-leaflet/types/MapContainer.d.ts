@@ -1,4 +1,4 @@
-import { FitBoundsOptions, LatLngBoundsExpression, Map as LeafletMap, MapOptions } from 'leaflet-rotate-map';
+import { FitBoundsOptions, LatLngBoundsExpression, Map as LeafletMap, MapOptions } from 'react-leaflet-rotate/leaflet-rotate-map';
 import { CSSProperties, MutableRefObject, ReactNode } from 'react';
 export interface MapContainerProps extends MapOptions {
     bounds?: LatLngBoundsExpression;

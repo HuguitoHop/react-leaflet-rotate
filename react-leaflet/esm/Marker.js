@@ -1,5 +1,5 @@
-import { createLayerComponent } from '@react-leaflet/core';
-import { Marker as LeafletMarker } from 'leaflet-rotate-map';
+import { createLayerComponent } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Marker as LeafletMarker } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const Marker = createLayerComponent(function createMarker({
   position,
   ...options

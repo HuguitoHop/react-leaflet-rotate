@@ -1,7 +1,7 @@
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
-import { CONTEXT_VERSION, LeafletProvider } from '@react-leaflet/core';
-import { Map as LeafletMap } from 'leaflet-rotate-map';
+import { CONTEXT_VERSION, LeafletProvider } from 'react-leaflet-rotate/@react-leaflet/core';
+import { Map as LeafletMap } from 'react-leaflet-rotate/leaflet-rotate-map';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 export function useMapElement(mapRef, props) {
   const [map, setMap] = useState(null);
