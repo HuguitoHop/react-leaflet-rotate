@@ -1,1 +1,1 @@
-declare module '@fseehawer/react-circular-slider';
+declare module 'react-leaflet-rotate/@fseehawer/react-circular-slider';

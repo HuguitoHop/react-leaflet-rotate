@@ -1,5 +1,5 @@
 import { createTileLayerComponent, updateGridLayer, withPane } from 'react-leaflet-rotate/@react-leaflet/core';
-import { TileLayer } from 'leaflet-rotate-map';
+import { TileLayer } from 'react-leaflet-rotate/leaflet-rotate-map';
 export const WMSTileLayer = createTileLayerComponent(function createWMSTileLayer({
   params = {},
   url,
